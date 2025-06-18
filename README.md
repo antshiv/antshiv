@@ -11,7 +11,7 @@ C-level optimization for embedded AI that outperforms GPU solutions.
 ## 💡 Philosophy
 First principles > frameworks | C optimization > abstractions | Hardware-aware > generic
 
-📺 [ANTSHIV ROBOTICS](https://www.youtube.com/@antshivrobotics) | 🔬 Research: Ongoing
+📺 [ANTSHIV ROBOTICS](https://www.youtube.com/@antshivrobotics) | 🔬 Research: Ongoing | 💬 Open to embedded AI projects
 
 <!--
 **antshiv/antshiv** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
