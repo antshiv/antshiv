@@ -3,10 +3,10 @@
 Optimizing the complete stack from Maxwell's equations to flight control. 
 C-level optimization for embedded AI that outperforms GPU solutions.
 
-## 🎯 Focus
-- Memory optimization for transformers: 6-100x speedups
-- Heterogeneous compute optimization (ARM, DSP, accelerators)
-- Hardware-software co-design for autonomous systems
+🎯 Focus
+- ⚡ Transform memory layout for transformers to achieve 6–100x CPU speedups vs. PyTorch
+- 🧠 Leverage heterogeneous compute (ARM, DSP, C7x) on devices like TDA4VM for edge inference
+- 🚁 Co-design software + hardware to power real-time autonomous drones from scratch
 
 ## 💡 Philosophy
 First principles > frameworks | C optimization > abstractions | Hardware-aware > generic
