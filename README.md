@@ -13,6 +13,8 @@ First principles > frameworks | C optimization > abstractions | Hardware-aware >
 
 📺 [ANTSHIV ROBOTICS](https://www.youtube.com/@antshivrobotics) | 🔬 Research: Ongoing | 💬 Open to embedded AI projects
 
+💬 [Join our Discord](https://discord.gg/Wqz25t9j)
+
 <!--
 **antshiv/antshiv** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
 
