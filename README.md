@@ -26,6 +26,6 @@ No black boxes. No excuses. Just fast, explainable, embedded intelligence.
 ## 📺 ANTSHIV ROBOTICS
 - 🔬 **Research**: Ongoing
 - 🎥 **YouTube**: [@Antshiv Robotics](https://www.youtube.com/@antshivrobotics)
-- 💬 **Join the Discord**: [https://discord.gg/bH34RuG2](#)
+- 💬 **Join the Discord**: [https://discord.gg/bH34RuG2](https://discord.gg/bH34RuG2)
 - 🤝 **Open to collaboration**: Embedded AI, robotics, high-performance inference
 
