@@ -1,6 +1,8 @@
 # 🚀 High-Performance Embedded AI & Autonomous Systems
 
-Optimizing the complete stack — from **Maxwell's equations** to **real-time flight control**.  
+Building Embedded AI from Scratch — in C, on CPUs, for Real-Time Autonomy.
+
+Optimizing the complete stack — from Maxwell's equations to real-time flight control.  
 Building **C-level AI systems** optimized for the compute in hand — whether Xeon CPUs, DSPs, or edge accelerators like the TDA4VM.
 
 ---
