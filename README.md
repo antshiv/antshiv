@@ -2,6 +2,7 @@
 
 Optimizing the complete stack — from **Maxwell's equations** to **real-time flight control**.  
 Building **C-level AI systems** optimized for the compute in hand — whether Xeon CPUs, DSPs, or edge accelerators like the TDA4VM.
+
 ---
 
 ## 🎯 Focus
