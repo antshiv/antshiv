@@ -1,31 +1,30 @@
 # 🚀 High-Performance Embedded AI & Autonomous Systems
 
-Optimizing the complete stack from Maxwell's equations to flight control. 
-C-level optimization for embedded AI that outperforms GPU solutions.
+Optimizing the complete stack — from **Maxwell's equations** to **real-time flight control**.  
+Building **C-level AI systems** optimized for the compute in hand — whether Xeon CPUs, DSPs, or edge accelerators like the TDA4VM.
+---
 
-🎯 Focus
-- ⚡ Transform memory layout for transformers to achieve 6–100x CPU speedups vs. PyTorch
-- 🧠 Leverage heterogeneous compute (ARM, DSP, C7x) on devices like TDA4VM for edge inference
-- 🚁 Co-design software + hardware to power real-time autonomous drones from scratch
+## 🎯 Focus
+- ⚡ **Transformer Memory Optimization**  
+  6–100× CPU speedups vs PyTorch via cache-aware slab layouts & AVX/AMX acceleration.
+- 🧠 **Heterogeneous Compute for Edge AI**  
+  Harnessing ARM, DSP, and C7x cores (e.g., TDA4VM) for real-time inference and sensor fusion.
+- 🚁 **Full-Stack Drone Autonomy**  
+  Co-designing hardware & software to power autonomous drones — control systems, IMUs, and embedded ML.
+
+---
 
 ## 💡 Philosophy
-First principles > frameworks | C optimization > abstractions | Hardware-aware > generic
+> **First Principles > Frameworks**  
+> **C Optimization > Abstraction Layers**  
+> **Hardware-Aware > Generic AI**
 
-📺 [ANTSHIV ROBOTICS](https://www.youtube.com/@antshivrobotics) | 🔬 Research: Ongoing | 💬 Open to embedded AI projects
+No black boxes. No excuses. Just fast, explainable, embedded intelligence.
+---
 
-💬 [Join our Discord](https://discord.gg/Wqz25t9j)
+## 📺 ANTSHIV ROBOTICS
+- 🔬 **Research**: Ongoing
+- 🎥 **YouTube**: [@Antshiv Robotics](https://www.youtube.com/@antshivrobotics)
+- 💬 **Join the Discord**: [discord.gg/your-link](#)
+- 🤝 **Open to collaboration**: Embedded AI, robotics, high-performance inference
 
-<!--
-**antshiv/antshiv** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
-
-Here are some ideas to get you started:
-
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
