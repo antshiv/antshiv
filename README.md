@@ -2,6 +2,18 @@
 
 ![Lab Illustration](assets/lab_illustration.jpg)
 
+# 👋 Hi, I'm Anthony Shivakumar
+
+Building the future of embedded autonomy - from CPUs to drones.
+
+Solo engineer working on high-performance AI inference, flight control systems, and specialized sensing. Currently developing tools and platforms that bring real-time intelligence to embedded systems without the black boxes.
+
+**Currently:** Building Antshiv Robotics and Antsand
+**Location:** Richmond, BC 🇨🇦
+**Focus:** Embedded AI, Flight Control, Sensor Fusion, Autonomous Systems and Sass integration
+
+---
+
 Building Embedded AI from Scratch — in C, on CPUs, for Real-Time Autonomy.
 
 Optimizing the complete stack — from Maxwell's equations to real-time flight control.  
