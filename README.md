@@ -2,28 +2,15 @@
 
 ![Lab Illustration](assets/lab_illustration.jpg)
 
-# 👋 Hi, I'm Anthony Shivakumar
-
-Building the future of embedded autonomy - from CPUs to drones.
-
-Solo engineer working on high-performance AI inference, flight control systems, and specialized sensing. Currently developing tools and platforms that bring real-time intelligence to embedded systems without the black boxes.
-
-- **Currently:** Building Antshiv Robotics and Antsand
-- **Location:** Richmond, BC 🇨🇦
-- **Focus:** Embedded AI, Flight Control, Sensor Fusion, Autonomous Systems and Sass integration
-
----
-
 Building Embedded AI from Scratch — in C, on CPUs, for Real-Time Autonomy.
 
-Optimizing the complete stack — from Maxwell's equations to real-time flight control.  
-Building **C-first autonomy** that stretches across CPUs, DSPs, edge accelerators, and custom flight computers.
+I am a contrarian by nature and prefer depth over hype. I feel uneasy when there are gaps in my knowledge, which forces me to remove abstractions as much as I can to understand the mechanics. C is my preferred language when it comes to depth.
 
-**Mission summary:**
-- CPU-optimized transformer and sensor-model inference in plain C/C++
-- A modular flight controller/INS stack that travels from desktop rig to embedded avionics
-- Antsand (proprietary) as the command platform for deploying, templating, and auditing field systems
-- Ecological sensing (TDR bog probes, biodiversity observatories) that loops embedded hardware back into the same pipeline
+My repositories are focused on ecological monitoring and biodiversity conservation using modern tools and ideas from AI, drones, and sensor development. This integrated aspect is what my repositories are focused on. I am generally focused on HPC, high performance compute, A.I, embedded systems, sensor design and creating tools and SaaS products. Antsand is one of them.
+
+Linux is my operating system of choice, using the AwesomeWM. I prefer to use NXP, TI, and Nordic MCUs and am not constrained by what is popular because I am very comfortable reading datasheets, removing barriers most may have. This means I don't have to use Arduino, ESP32, or Raspberry Pi just because they are easy to use. I can generally think through compute and get a sense of how it may fit in my application. Though I do use Arduino a lot, I generally write in C using the Microchip IDE and compile and link to the existing Arduino C code.
+
+In my repositories, you will find a lot of C code and AI augmentation that resonates with my way of thinking. Feel free to explore and have fun.
 
 ---
 
@@ -54,6 +41,7 @@ No black boxes. No excuses. Just fast, explainable, embedded intelligence.
 - **Ecological Sensor Tooling** — embedded TDR probes and biodiversity nodes that feed into the same autonomy stack for conservation deployments.
 - **Benchmark Harness** — repeatable CPU-side benchmarking for transformer kernels, cache tracing, and AMX/AVX workload characterization.
 - **Hardware Targets** — primarily NXP, Texas Instruments, Nordic Semiconductor (nRF52/nRF53), with supplemental Arduino prototypes; development on Linux (main) and Windows (as needed).
+- **Physical Test Rigs** — `ThrustStand/` for propulsion characterisation and `DroneTestRig/` for multi-axis mounting; both feed data back into `AeroDynControlRig` for controller tuning.
 
 ## 🗺️ Roadmap Highlights
 1. Stage 0–1: Quaternion sandbox, first-order dynamics explorer (completed).
