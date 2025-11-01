@@ -2,11 +2,11 @@
 
 ![Lab Illustration](assets/lab_illustration.jpg)
 
-Building Embedded AI from Scratch — in C, on CPUs, for Real-Time Autonomy.
-
 I am a contrarian by nature and prefer depth over hype. I feel uneasy when there are gaps in my knowledge, which forces me to remove abstractions as much as I can to understand the mechanics. C is my preferred language when it comes to depth.
 
-My repositories are focused on ecological monitoring and biodiversity conservation using modern tools and ideas from AI, drones, and sensor development. This integrated aspect is what my repositories are focused on. I am generally focused on HPC, high performance compute, A.I, embedded systems, sensor design and creating tools and SaaS products. Antsand is one of them.
+I prefer tinkering and am generally comfortable reading datasheets and solving problems from the source of truth. I like 3D printing, which helps me move from idea to prototype. I consider myself a polymath in some shape or form and genuinely can move across the stack from C, HPC to writing Javascript, HTML and CSS seamlessly. This depth and tinkering nature generally help me see things in a contrarian way as it helps me see through abstractions.
+
+I would like to connect all my projects towards the higher mission of ecological monitoring and biodiversity conservation, though the details of my projects are generally more technical on the surface and in its depth. I am generally focused on HPC, high performance compute, A.I, embedded systems, sensor design and creating tools and SaaS products. Antsand is one of them. My Thrust Stand, Drone Test Rig, C-Transformer, and my proprietary SaaS application Antsand and my flight controller algorithms are all examples of this.
 
 Linux is my operating system of choice, using the AwesomeWM. I prefer to use NXP, TI, and Nordic MCUs and am not constrained by what is popular because I am very comfortable reading datasheets, removing barriers most may have. This means I don't have to use Arduino, ESP32, or Raspberry Pi just because they are easy to use. I can generally think through compute and get a sense of how it may fit in my application. Though I do use Arduino a lot, I generally write in C using the Microchip IDE and compile and link to the existing Arduino C code.
 
