@@ -34,6 +34,8 @@ My repositories reflect this philosophy: lots of C code, AI augmentation, and fi
 
 **A quick lab tour:** One of my hidden talents is optimizing space. The illustration above shows my closet lab—4×7 ft containing 3-4 monitors, dual laptops (Windows + Linux), 3D printer, Akro-Mils storage for electronics, microscope, soldering station, oscilloscope, signal generator, and a multi-angle YouTube capture setup. I use vertical shelving to maximize surface volume. I also love woodworking, so my miter saw and tools live on a pegboard in the same space.
 
+![The 4×7 ft closet lab—real workspace, real work](assets/lab_web.jpg)
+
 ---
 
 ## 💡 Philosophy
