@@ -37,6 +37,18 @@ Proving transformers can run on CPU without GPU clusters or framework dependenci
 
 ---
 
+## 🗂️ Navigating My Repositories
+
+**Full-Stack Flight Controller (WIP)** — [attitudeMathLibrary](https://github.com/antshiv/attitudeMathLibrary) • [stateEstimation](https://github.com/antshiv/stateEstimation) • [dynamic_models](https://github.com/antshiv/dynamic_models) • [controlSystems](https://github.com/antshiv/controlSystems) • [inertial_navigation_system](https://github.com/antshiv/inertial_navigation_system) • [AeroDynControlRig](https://github.com/antshiv/AeroDynControlRig) (OpenGL+ImGui simulator)
+
+**Embedded Systems** — [BLEDroneCode](https://github.com/antshiv/BLEDroneCode) (NRF53 drone: Zephyr RTOS, sensor drivers, PWM motor control) • [HandheldController](https://github.com/antshiv/HandheldController) (wireless integration with drone controller)
+
+**Hardware Test Rigs** — [ThrustStand](https://github.com/antshiv/ThrustStand) (propulsion characterization) • [DroneTestRig](https://github.com/antshiv/DroneTestRig) (multi-axis dynamic testing)
+
+**HPC AI** — [C-Transformer](https://github.com/antshiv/C-Transformer) (pure C inference + backprop on Xeons x86, starting with GPT-2, expanding to other architectures)
+
+---
+
 ## 💭 How I Think
 
 I prefer depth over hype. Gaps in my knowledge make me uneasy, which forces me to strip away abstractions and understand mechanics from first principles. I'm comfortable reading datasheets, solving problems from source truth, and moving seamlessly across the stack from low-level C/HPC to JavaScript/HTML/CSS. I use 3D printing to rapidly move from idea to prototype.
