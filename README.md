@@ -14,6 +14,14 @@ Every subsystem I build — from CPU-based transformers to flight controllers �
 
 ---
 
+🧩 Approach
+
+Vertical integration from silicon to software:
+Embedded sensors → Edge compute → Training infrastructure → Deployment platforms.
+I build the full stack, one layer at a time.
+
+---
+
 ## 🎯 Current Technical Focus
 
 **🌿 Ecological Monitoring & Biodiversity Conservation**
@@ -42,22 +50,6 @@ My repositories reflect this philosophy: lots of C code, AI augmentation, and fi
 
 ![The 4×7 ft closet lab—real workspace, real work](assets/lab_web.jpg)
 
----
-
-## 💡 Philosophy
-
-**"Memory, cache, and registers are a canvas. I paint with hardware, not just libraries."**
-
-> **Abstraction has a cost.** I pay it consciously.
-> **Understanding > Convenience.** First principles before frameworks.
-> **Hardware-first thinking.** Know the silicon before you abstract it.
-
-This isn't dogma—it's survival in the field:
-- Remote deployment demands efficiency (every watt counts)
-- Long-term autonomy requires debuggability (field tech needs a multimeter, not stack traces)
-- Conservation biologists need explainable intelligence (not just "the model said so")
-
-No black boxes where it matters. Fast, explainable, embedded intelligence.
 ---
 
 ## 🛠️ Current Build Stack
