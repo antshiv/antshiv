@@ -3,6 +3,7 @@
 
 ![Lab Illustration](assets/lab_illustration.jpg)
 
+> Deploying embedded intelligence where it matters most — understanding and protecting ecosystems.
 
 **🧭 Mission**
 
