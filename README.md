@@ -1,26 +1,31 @@
-# 🚀 High-Performance Embedded AI & Autonomous Systems
+# 🌍 ANTSHIV ROBOTICS
+## **Intelligent Systems for Bio-Diversity Conservation & Ecological Monitoring**
 
 ![Lab Illustration](assets/lab_illustration.jpg)
 
-**Building autonomous systems from silicon to software—vertical integration across the full stack: embedded sensors → edge compute → training infrastructure → deployment platforms.**
+**Mission:** Deploy embedded intelligence where it matters most—understanding and protecting ecosystems.
 
-My higher mission is ecological monitoring and biodiversity conservation. Every project—from CPU-based transformer training to autonomous flight controllers—feeds into this goal.
+Most conservation monitoring relies on human observers (expensive, limited scale) or satellite data (delayed, low-resolution). I'm building intelligent systems that bridge this gap: autonomous platforms with embedded AI for species identification, continuous ecosystem monitoring, and long-term field deployment.
+
+I work piecemeal—building foundational capability (embedded AI, flight controllers, real-time systems) that will accelerate into deployed conservation applications. Every project feeds this mission: CPU-based transformers enable on-device inference without framework overhead; flight controllers enable autonomous aerial monitoring; sensor networks provide ground truth data.
+
+**Approach:** Vertical integration from silicon to software—embedded sensors → edge compute → training infrastructure → deployment platforms.
 
 ---
 
-## 🎯 Focus Areas
+## 🎯 Current Technical Focus
 
-**⚡ CPU-Based AI Inference & Training**
-Proving transformers can run on CPUs without GPU clusters or framework dependencies. Hand-optimized kernels in pure C with cache-aware layouts, vectorized operations, and streaming-friendly schedulers. First-principles implementation from scratch.
+**🌿 Ecological Monitoring & Biodiversity Conservation**
+The mission. TDR and EM soil probes, biodiversity sensors, and real-time environmental monitoring. Complete pipeline from embedded firmware → edge inference → cloud dashboards. Hardware design, sensor networks, and data federation for conservation deployments. *Accelerating soon with specific field applications.*
 
-**🚁 Flight Controller Algorithms & Autonomous Drones**
-Real-time INS, quaternion mathematics, Kalman filtering, and control systems (PID/LQR/MPC) for autonomous flight. Modular attitude math and estimator stack portable from OpenGL/ImGui simulation rigs to NRF-based avionics hardware.
+**🚁 Autonomous Aerial Platforms**
+Real-time INS, quaternion mathematics, Kalman filtering, and control systems (PID/LQR/MPC) for autonomous flight. Modular attitude math and estimator stack portable from OpenGL/ImGui simulation rigs to NRF-based avionics hardware. *Enables continuous aerial monitoring at scale.*
 
-**☁️ Antsand Platform: Sensors → SaaS**
-[**Antsand**](https://www.antsand.com) is my proprietary SaaS application builder with a custom DSL that abstracts UI generation—making it possible to build everything from blogs to mission-critical field command centers. Templated dashboards, federated deployment, and real-time data orchestration for conservation and robotics work.
+**⚡ Embedded AI Inference**
+Proving transformers can run on microcontrollers without GPU clusters or framework dependencies. Hand-optimized kernels in pure C with cache-aware layouts, vectorized operations, and streaming-friendly schedulers. First-principles implementation from scratch. *Enables on-device species identification in the field.*
 
-**🌍 Ecological Monitoring & Biodiversity Conservation**
-TDR soil moisture probes, biodiversity sensors, and real-time environmental monitoring. Complete pipeline from embedded firmware to edge inference to cloud dashboards. Hardware design, sensor networks, and data federation for conservation deployments.
+**☁️ Antsand Platform: Sensors → Dashboards**
+[**Antsand**](https://www.antsand.com) is my proprietary SaaS platform with a custom DSL for rapid UI generation—from blogs to mission-critical field command centers. Templated dashboards, federated deployment, and real-time data orchestration. *Connects remote sensor networks to conservation decision-makers.*
 
 ---
 
@@ -39,11 +44,19 @@ My repositories reflect this philosophy: lots of C code, AI augmentation, and fi
 ---
 
 ## 💡 Philosophy
-> **First Principles > Frameworks**  
-> **C Optimization > Abstraction Layers**  
-> **Hardware-Aware > Generic AI**
 
-No black boxes. No excuses. Just fast, explainable, embedded intelligence.
+**"Memory, cache, and registers are a canvas. I paint with hardware, not just libraries."**
+
+> **Abstraction has a cost.** I pay it consciously.
+> **Understanding > Convenience.** First principles before frameworks.
+> **Hardware-first thinking.** Know the silicon before you abstract it.
+
+This isn't dogma—it's survival in the field:
+- Remote deployment demands efficiency (every watt counts)
+- Long-term autonomy requires debuggability (field tech needs a multimeter, not stack traces)
+- Conservation biologists need explainable intelligence (not just "the model said so")
+
+No black boxes where it matters. Fast, explainable, embedded intelligence.
 ---
 
 ## 🛠️ Current Build Stack
@@ -61,7 +74,25 @@ No black boxes. No excuses. Just fast, explainable, embedded intelligence.
 3. Stage 4–5: Full INS orchestration, 3D mission simulation, wind/disturbance modeling (up next).
 4. Deployment: NRF53 avionics integration, Antsand-driven field UI, and ecological monitoring pilots.
 
-## 📺 ANTSHIV ROBOTICS
+## 🤝 Working With Me
+
+**ANTSHIV ROBOTICS** is currently a solo operation with company-scale output through AI-augmented development. I build foundational capability piece by piece, accelerating into deployed conservation applications as opportunities arise.
+
+**Open to:**
+- **Contract work** on hard embedded/AI problems (especially conservation-adjacent)
+- **Collaborations** with shared philosophy (understand first, abstract when necessary)
+- **Field deployments** in challenging environments (remote, power-constrained, long-term autonomy)
+- **Conservation partnerships** where embedded intelligence can make a measurable impact
+
+**Not interested in:**
+- Framework-first thinking or "let's just use PyTorch/ROS"
+- Solutions looking for problems
+- Black boxes I can't debug in the field
+
+---
+
+## 📺 Connect
+
 - 🎥 **YouTube**: Flight controller deep-dives, sensor builds, and embedded AI walkthroughs → [@Antshiv Robotics](https://www.youtube.com/@antshivrobotics)
 - 💬 **Discord**: Real-time discussions on C optimization, drone dynamics, and hardware choices → [Join here](https://discord.gg/bH34RuG2)
-- 🤝 **Collaborate**: If you're working on embedded AI, edge inference, conservation tech, or low-level optimization—let's talk.
+- 🌐 **Antsand Platform**: [antsand.com](https://www.antsand.com)
