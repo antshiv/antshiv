@@ -61,11 +61,32 @@ I run Linux/AwesomeWM and prefer NXP, TI, and Nordic MCUs. Datasheet fluency mea
 
 ---
 
-## 🗺️ Roadmap Highlights
-1. Stage 0–1: Quaternion sandbox, first-order dynamics explorer (completed).
-2. Stage 2–3: Flight controllers + estimator diagnostics (in progress).
-3. Stage 4–5: Full INS orchestration, 3D mission simulation, wind/disturbance modeling (up next).
-4. Deployment: NRF53 avionics integration, Antsand-driven field UI, and ecological monitoring pilots. 
+## 🗺️ Roadmap: 3-4 Month Build Cycles
+
+*Revised periodically based on budget, resources, time, skill development, and life obligations.*
+
+I work in systematic cycles—building capability, validating in field, then expanding. Each stage builds on the previous, accelerating toward deployed conservation systems.
+
+**Stage 0** (2025-2026) — *Foundation Hardening*
+Flight controller software maturation • Antsand platform modernization • Core libraries production-ready • Documentation and visualization tools
+
+**Stage 1** (2025-2027) — *First Deployment*
+TDR sensor monitoring in bogs • Field command center prototype • Antsand integration for sensor data → dashboards • Ground truth collection • Power and connectivity validation
+
+**Stage 2** (2026-2028) — *Autonomous Deployment*
+Drone-based sensor placement in remote areas • Autonomous waypoint navigation • Payload release mechanisms • Extended range operations • Multi-site coordination
+
+**Stage 3** (2027-2029) — *Embedded Intelligence*
+Custom AI models for pattern recognition • C-Transformer deployment for species identification • Automated flight planning from sensor triggers • Multi-variable analysis (moisture + temperature + visual)
+
+**Stage 4** (2027-2031) — *Sensor Expansion*
+EM signature sensors for soil conductivity • Optical/multispectral imaging • Acoustic monitoring for biodiversity • Integrated multi-modal sensing • Cross-validation pipelines
+
+**Stage 5** (2028-2032) — *Satellite Integration*
+Satellite imagery integration with ground truth • Change detection algorithms • Large-scale monitoring (100+ hectares) • Antsand as unified interface (ground + aerial + satellite)
+
+**Stage 6** (Ongoing) — *Scale & Repeat*
+Deploy proven systems to new sites • Partner with conservation organizations • Expand sensor types as needed • Continuous refinement based on field data 
 
 ## 🤝 Working With Me
 
