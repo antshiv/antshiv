@@ -12,7 +12,7 @@ I’m building autonomous systems that bridge this gap — intelligent platforms
 
 Every subsystem I build — from CPU-based transformers to flight controllers — feeds this mission. Each prototype is a stepping stone toward field-deployable conservation systems.
 
----
+--
 
 🧩 Approach
 
@@ -40,11 +40,9 @@ Proving transformers can run on microcontrollers without GPU clusters or framewo
 
 ## 💭 How I Think
 
-I am a contrarian by nature and prefer depth over hype. Gaps in my knowledge make me uneasy, which forces me to strip away abstractions and understand mechanics from first principles—C is my tool of choice for this. I'm comfortable reading datasheets, solving problems from source truth, and moving seamlessly across the stack from low-level C/HPC to Javascript/HTML/CSS. I use 3D printing to rapidly move from idea to prototype. This tinkering mindset and polymath approach help me see through abstractions in ways that lead to unconventional solutions.
+I prefer depth over hype. Gaps in my knowledge make me uneasy, which forces me to strip away abstractions and understand mechanics from first principles. I'm comfortable reading datasheets, solving problems from source truth, and moving seamlessly across the stack from low-level C/HPC to JavaScript/HTML/CSS. I use 3D printing to rapidly move from idea to prototype.
 
-I run Linux/AwesomeWM and prefer NXP, TI, and Nordic MCUs. Datasheet fluency means I'm not limited to Arduino/ESP32/Raspberry Pi just because they're popular—I can evaluate compute requirements and pick the right chip. When I do use Arduino, I typically write C in Microchip IDE and link to Arduino libraries rather than use the IDE.
-
-My repositories reflect this philosophy: lots of C code, AI augmentation, and first-principles approaches. Feel free to explore.
+I run Linux/AwesomeWM and prefer NXP, TI, and Nordic MCUs. Datasheet fluency means I'm not limited to Arduino/ESP32/Raspberry Pi just because they're popular—I can evaluate compute requirements and pick the right chip. My repositories reflect this: lots of C code, AI augmentation, and first-principles approaches.
 
 **A quick lab tour:** One of my hidden talents is optimizing space. The illustration above shows my closet lab—4×7 ft containing 3-4 monitors, dual laptops (Windows + Linux), 3D printer, Akro-Mils storage for electronics, microscope, soldering station, oscilloscope, signal generator, and a multi-angle YouTube capture setup. I use vertical shelving to maximize surface volume. I also love woodworking, so my miter saw and tools live on a pegboard in the same space.
 
