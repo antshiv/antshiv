@@ -24,13 +24,13 @@ I build the full stack, one layer at a time.
 ## 🎯 Current Technical Focus
 
 **🌿 Ecological Monitoring & Biodiversity Conservation**
-The mission. TDR and EM soil probes, biodiversity sensors, and real-time environmental monitoring. Complete pipeline from embedded firmware → edge inference → cloud dashboards. Hardware design, sensor networks, and data federation for conservation deployments. *Accelerating soon with specific field applications.*
+The mission. TDR and EM soil probes, biodiversity sensors, and real-time environmental monitoring. Complete pipeline from senaors → edge storage and inference → cloud dashboards. Hardware design, sensor networks, and data federation for conservation deployments.
 
 **🚁 Autonomous Aerial Platforms**
-Real-time INS, quaternion mathematics, Kalman filtering, and control systems (PID/LQR/MPC) for autonomous flight. Modular attitude math and estimator stack portable from OpenGL/ImGui simulation rigs to NRF-based avionics hardware. *Enables continuous aerial monitoring at scale.*
+Real-time INS, quaternion mathematics, Kalman filtering, and control systems (PID/LQR/MPC) for autonomous flight. *Enables continuous aerial monitoring at scale.*
 
 **⚡ Embedded AI Inference**
-Proving transformers can run on microcontrollers without GPU clusters or framework dependencies. Hand-optimized kernels in pure C with cache-aware layouts, vectorized operations, and streaming-friendly schedulers. First-principles implementation from scratch. *Enables on-device species identification in the field.*
+Proving transformers can run on CPU without GPU clusters or framework dependencies. Hand-optimized kernels in pure C with cache-aware layouts, vectorized operations and more. *Enables on-device inference and pattern recognition in the field.*
 
 **☁️ Antsand Platform: Sensors → Dashboards**
 [**Antsand**](https://www.antsand.com) is my proprietary SaaS platform with a custom DSL for rapid UI generation—from blogs to mission-critical field command centers. Templated dashboards, federated deployment, and real-time data orchestration. *Connects remote sensor networks to conservation decision-makers.*
@@ -48,15 +48,6 @@ I run Linux/AwesomeWM and prefer NXP, TI, and Nordic MCUs. Datasheet fluency mea
 ![The 4×7 ft closet lab—real workspace, real work](assets/lab_web.jpg)
 
 ---
-
-## 🛠️ Current Build Stack
-- **INS & Flight Controller** — quaternion math, complementary/Kalman estimators, first-principles dynamics, PID/LQR control loops, and an OpenGL+ImGui HMVC visualization rig.
-- **Antsand Federated Runtime (proprietary)** — templated command center that generates operator UIs, syncs federated data, and deploys mission tooling to field nodes.
-- **Mission Analytics Layer** — telemetry ingestion, replay, and anomaly detection bridging embedded logs with Antsand dashboards.
-- **Ecological Sensor Tooling** — embedded TDR probes and biodiversity nodes that feed into the same autonomy stack for conservation deployments.
-- **Benchmark Harness** — repeatable CPU-side benchmarking for transformer kernels, cache tracing, and AMX/AVX workload characterization.
-- **Hardware Targets** — primarily NXP, Texas Instruments, Nordic Semiconductor (nRF52/nRF53), with supplemental Arduino prototypes; development on Linux (main) and Windows (as needed).
-- **Physical Test Rigs** — `ThrustStand/` for propulsion characterisation and `DroneTestRig/` for multi-axis mounting; both feed data back into `AeroDynControlRig` for controller tuning.
 
 ## 🗺️ Roadmap Highlights
 1. Stage 0–1: Quaternion sandbox, first-order dynamics explorer (completed).
