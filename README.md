@@ -79,7 +79,6 @@ I run Linux/AwesomeWM and prefer NXP, TI, and Nordic MCUs. Datasheet fluency mea
 
 **Best fit for projects requiring:**
 - Understanding system constraints before choosing abstractions
-- Field-debuggable implementations (multimeter, not stack traces)
 - Power/compute-constrained environments
 - Long-term deployment without framework dependencies
 
