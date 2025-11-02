@@ -4,7 +4,7 @@
 ![Lab Illustration](assets/lab_illustration.jpg)
 
 
-**🧭 Mission **
+**🧭 Mission**
 
 Most conservation monitoring today relies on human observers (expensive, limited scale) or satellites (delayed, low resolution).
 I’m building autonomous systems that bridge this gap — intelligent platforms for continuous, real-time ecological observation, powered by embedded AI.
