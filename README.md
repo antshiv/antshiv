@@ -88,7 +88,7 @@ Satellite imagery integration with ground truth • Change detection algorithms 
 **Stage 6** (Ongoing) — *Scale & Repeat*
 Deploy proven systems to new sites • Partner with conservation organizations • Expand sensor types as needed • Continuous refinement based on field data 
 
-I do beleive my chances of completing the above is 0%. But who cares. No harm trying. 
+I believe my chances of completing all of this are 0%. But who cares - no harm trying.
 
 ## 🤝 Working With Me
 
