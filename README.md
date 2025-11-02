@@ -3,13 +3,13 @@
 
 ![Lab Illustration](assets/lab_illustration.jpg)
 
-**Mission:** Deploy embedded intelligence where it matters most—understanding and protecting ecosystems.
 
-Most conservation monitoring relies on human observers (expensive, limited scale) or satellite data (delayed, low-resolution). I'm building intelligent systems that bridge this gap: autonomous platforms with embedded AI for species identification, continuous ecosystem monitoring, and long-term field deployment.
+**🧭 Mission **
 
-I work piecemeal—building foundational capability (embedded AI, flight controllers, real-time systems) that will accelerate into deployed conservation applications. Every project feeds this mission: CPU-based transformers enable on-device inference without framework overhead; flight controllers enable autonomous aerial monitoring; sensor networks provide ground truth data.
+Most conservation monitoring today relies on human observers (expensive, limited scale) or satellites (delayed, low resolution).
+I’m building autonomous systems that bridge this gap — intelligent platforms for continuous, real-time ecological observation, powered by embedded AI.
 
-**Approach:** Vertical integration from silicon to software—embedded sensors → edge compute → training infrastructure → deployment platforms.
+Every subsystem I build — from CPU-based transformers to flight controllers — feeds this mission. Each prototype is a stepping stone toward field-deployable conservation systems.
 
 ---
 
