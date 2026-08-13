@@ -1,39 +1,32 @@
 # 🌍 ANTSHIV ROBOTICS
-## **Intelligent Systems for Bio-Diversity Conservation & Ecological Monitoring**
+## **Autonomous Flight Systems and CPU-Native AI**
 
 ![Lab Illustration](assets/lab_illustration.jpg)
 
-> Deploying embedded intelligence where it matters most — understanding and protecting ecosystems.
+> Building the mathematics, embedded control, test systems, and CPU AI needed for autonomous machines.
 
 **🧭 Mission**
 
-Most conservation monitoring today relies on human observers (expensive, limited scale) or satellites (delayed, low resolution).
-I’m building autonomous systems that bridge this gap — intelligent platforms for continuous, real-time ecological observation, powered by embedded AI.
+I am developing two connected engineering systems: an autonomous aircraft stack built from flight mathematics through physical test rigs and custom electronics, and C-Kernel-Engine, a CPU-native AI runtime for inference and training research.
 
-Every subsystem I build — from CPU-based transformers to flight controllers — feeds this mission. Each prototype is a stepping stone toward field-deployable conservation systems.
+The aircraft must remain safe without AI or network connectivity. CKE can later add onboard perception and connect the aircraft to larger distributed CPU ground systems. Conservation, inspection, mapping, and remote monitoring are possible applications once the underlying systems are proven.
 
 
 🧩 Approach
 
-Vertical integration from silicon to software:
-Embedded sensors → Edge compute → Training infrastructure → Deployment platforms.
-I build the full stack, one layer at a time.
+Vertical integration from mathematics to hardware:
+Flight dynamics → embedded control → propulsion and test rigs → CPU AI → integrated autonomous systems.
+I build and validate the stack one boundary at a time.
 
 ---
 
 ## 🎯 Current Technical Focus
 
-**🌿 Ecological Monitoring & Biodiversity Conservation**
-The mission. TDR and EM soil probes, biodiversity sensors, and real-time environmental monitoring. Complete pipeline from senaors → edge storage and inference → cloud dashboards. Hardware design, sensor networks, and data federation for conservation deployments.
-
 **🚁 Autonomous Aerial Platforms**
-Real-time INS, quaternion mathematics, Kalman filtering, and control systems (PID/LQR/MPC) for autonomous flight. *Enables continuous aerial monitoring at scale.*
+Real-time INS, quaternion mathematics, state estimation, rotor dynamics, and control systems for autonomous flight. The work spans desktop mathematical references, embedded firmware, physical test rigs, custom flight-controller electronics, and eventually an integrated aircraft.
 
-**⚡ Embedded AI Inference**
-Proving transformers can run on CPU without GPU clusters or framework dependencies. Hand-optimized kernels in pure C with cache-aware layouts, vectorized operations and more. *Enables on-device inference and pattern recognition in the field.*
-
-**☁️ Antsand Platform: Sensors → Dashboards**
-[**Antsand**](https://www.antsand.com) is my proprietary SaaS platform with a custom DSL for rapid UI generation—from blogs to mission-critical field command centers. Templated dashboards, federated deployment, and real-time data orchestration. *Connects remote sensor networks to conservation decision-makers.*
+**⚡ CPU AI Inference and Training**
+Building [**C-Kernel-Engine (CKE)**](https://github.com/C-Kernel-Engine/C-Kernel-Engine), a CPU-native runtime and kernel compiler for transformer language, vision, and audio models. CKE turns explicit model circuits into generated C and validates them against established numerical oracles. *The long-term purpose is practical AI across onboard computers, ground nodes, and distributed CPU systems.*
 
 ---
 
@@ -45,7 +38,7 @@ Proving transformers can run on CPU without GPU clusters or framework dependenci
 
 **Hardware Test Rigs** — [ThrustStand](https://github.com/antshiv/ThrustStand) (propulsion characterization) • [DroneTestRig](https://github.com/antshiv/DroneTestRig) (multi-axis dynamic testing)
 
-**HPC AI** — [C-Transformer](https://github.com/antshiv/C-Transformer) (pure C inference + backprop on Xeons x86, starting with GPT-2, expanding to other architectures)
+**CPU AI** — [C-Kernel-Engine](https://github.com/C-Kernel-Engine/C-Kernel-Engine) (generated C inference and training research across language, vision, and audio models) • [CKE documentation](https://c-kernel-engine.github.io/C-Kernel-Engine/)
 
 ---
 
@@ -61,44 +54,60 @@ I run Linux/AwesomeWM and prefer NXP, TI, and Nordic MCUs. Datasheet fluency mea
 
 ---
 
-## 🗺️ Roadmap: 3-4 Month Build Cycles
+## 🗺️ Roadmap: Drone Systems and CKE
 
 *Revised periodically based on budget, resources, time, skill development, and life obligations.*
 
-I work in systematic cycles—building capability, validating in field, then expanding. Each stage builds on the previous, accelerating toward deployed conservation systems.
+I work in systematic cycles: build a subsystem, establish a software oracle, replay it on embedded hardware, measure it on a physical rig, and only then integrate it into a larger vehicle. Dates are targets rather than promises. Progress depends on budget, available space, field access, safety, and what each experiment teaches me.
 
-**Stage 0** (2025-2026) — *Foundation Hardening*
-Flight controller software maturation • Antsand platform modernization • Core libraries production-ready • Documentation and visualization tools
+This work does not begin from an empty lab. I already have a 3D printer, electronics bench, microscope, soldering equipment, oscilloscope, signal generator, Nordic nRF5340 and NXP i.MX RT1170 development hardware, a built thrust stand, and a multi-axis attitude rig. The immediate task is turning those individual assets into one reproducible validation system.
 
-**Stage 1** (2025-2027) — *First Deployment*
-TDR sensor monitoring in bogs • Field command center prototype • Antsand integration for sensor data → dashboards • Ground truth collection • Power and connectivity validation
+Lab expansion is part of that work, not a separate collection project. Purchases such as JBC soldering and rework tools, board fixtures, power instrumentation, safety equipment, or improved storage must unlock a defined flight-controller, ESC, propulsion, or compute experiment. The order is: identify the blocked measurement or assembly task, buy the minimum capability that removes it, document the procedure, and reuse it across later revisions.
 
-**Stage 2** (2026-2028) — *Autonomous Deployment*
-Drone-based sensor placement in remote areas • Autonomous waypoint navigation • Payload release mechanisms • Extended range operations • Multi-site coordination
+**Stage 0** (2025-2027) — *Mathematics, Software and Evidence*
+Unify coordinate frames, units, telemetry formats, and dependency versions across the flight-control repositories • Validate quaternion, state-estimation, control, rotor, and six-DOF implementations against independent desktop references • Add deterministic sensor replay and regression fixtures • Connect AeroDynControlRig visualizations to recorded evidence • Continue CKE numerical-parity, profiling, model-family support, training research, and distributed-runtime work
 
-**Stage 3** (2027-2029) — *Embedded Intelligence*
-Custom AI models for pattern recognition • C-Transformer deployment for species identification • Automated flight planning from sensor triggers • Multi-variable analysis (moisture + temperature + visual)
+**Exit condition:** the same recorded trajectory can run through the mathematical reference, native C implementation, embedded target, and visualizer with explained tolerances and reproducible reports.
 
-**Stage 4** (2027-2031) — *Sensor Expansion*
-EM signature sensors for soil conductivity • Optical/multispectral imaging • Acoustic monitoring for biodiversity • Integrated multi-modal sensing • Cross-validation pipelines
+**Stage 1** (2026-2028) — *Instrumented Bench Systems*
+Harden the compact lab for repeatable PCB assembly, inspection, rework, power measurement, and safe motor testing • Calibrate the thrust stand with versioned datasets • Characterize commercial motor, propeller, and ESC combinations as reference hardware • Exercise attitude and controller behaviour on the multi-axis rig • Record thrust, torque, RPM, current, voltage, temperature, vibration, and controller state • Establish safe fault handling, current limits, and emergency shutdown procedures
 
-**Stage 5** (2028-2032) — *Satellite Integration*
-Satellite imagery integration with ground truth • Change detection algorithms • Large-scale monitoring (100+ hectares) • Antsand as unified interface (ground + aerial + satellite)
+**Exit condition:** the lab can reproduce an assembly or measurement procedure, and measured propulsion and attitude experiments agree with the software models closely enough that a mismatch can be assigned to the model, firmware, electronics, or mechanics.
 
-**Stage 6** (Ongoing) — *Scale & Repeat*
-Deploy proven systems to new sites • Partner with conservation organizations • Expand sensor types as needed • Continuous refinement based on field data 
+**Stage 2** (2027-2029) — *Custom Flight and Motor-Control Hardware*
+Design an nRF5340 flight-controller PCB in KiCad around the validated sensor and telemetry stack • Build and review a single-channel i.MX RT1170 motor-control prototype before attempting an integrated ESC • Use the 3D printer for enclosures, fixtures, sensor mounts, and rapid form-factor iterations • Complete at least two board revisions with bring-up records, power-integrity measurements, and hardware-in-the-loop replay
 
-I believe my chances of completing all of this are 0%. But who cares - no harm trying.
+**Exit condition:** the custom boards reproduce the bench reference, survive fault tests, and can be assembled and diagnosed from published design and test records.
+
+**Stage 3** (2028-2030) — *Integrated Aircraft Prototype*
+Integrate the flight controller, propulsion system, navigation sensors, power system, telemetry, and a conservative airframe • Begin with commercial propellers and controlled tethered tests • Progress through stabilization, navigation, geofencing, return-to-home, and emergency landing • Keep flight safety independent of CKE and external connectivity
+
+**Exit condition:** repeatable, human-supervised flight with bounded behaviour when communications, companion compute, or individual sensors fail.
+
+**Stage 4** (2029-2031) — *Onboard and Ground Intelligence*
+Run compact CKE vision, audio, or classification models on onboard companion compute • Develop portable CPU ground nodes for larger models, mission analysis, and multi-aircraft coordination • Harden encrypted communication and graceful switching between onboard and ground processing • Evaluate distributed inference and training using owned CPU hardware
+
+**Exit condition:** the aircraft remains useful offline, gains measurable capability when ground compute is available, and records complete provenance for observations, models, and decisions.
+
+**Stage 5** (2030-2032) — *Field Applications*
+Apply the proven aircraft and CPU AI system to inspection, mapping, remote monitoring, search and rescue, or conservation projects where a real partner and measurable problem exist • Establish ground truth, power, connectivity, maintenance, and operating procedures for each deployment
+
+**Exit condition:** a partner can use the system to answer a real field problem over repeated operations, not merely watch a laboratory demonstration.
+
+**Stage 6** (Ongoing) — *Scale What Survives Contact With Reality*
+Repeat successful aircraft, CKE, and distributed-compute experiments • Improve the components that measurements identify as constraints • Expand hardware only when the previous system is understood and maintainable • Publish evidence, failures, and design changes so each cycle begins from stronger ground
+
+Completing every stage exactly as written is unlikely. That is acceptable. The purpose of the roadmap is to choose the next useful experiment while keeping the drone and CKE work connected without creating additional programs before these two are mature.
 
 ## 🤝 Working With Me
 
 **ANTSHIV ROBOTICS** is currently a solo operation. I use AI augmentation to accelerate development while maintaining deep technical understanding across the stack.
 
 **Open to:**
-- **Contract work** on hard embedded/AI problems (especially conservation-adjacent)
+- **Contract work** on hard embedded, control-systems, and CPU AI problems
 - **Collaborations** with shared philosophy (understand first, abstract when necessary)
-- **Field deployments** in challenging environments (remote, power-constrained, long-term autonomy)
-- **Conservation partnerships** where embedded intelligence can make a measurable impact
+- **Flight and test-system development** where mathematical and physical evidence matter
+- **Future field partnerships** after the underlying aircraft and compute systems are ready
 
 **Best fit for projects requiring:**
 - Understanding system constraints before choosing abstractions
@@ -111,4 +120,3 @@ I believe my chances of completing all of this are 0%. But who cares - no harm t
 
 - 🎥 **YouTube**: Flight controller deep-dives, sensor builds, and embedded AI walkthroughs → [@Antshiv Robotics](https://www.youtube.com/@antshivrobotics)
 - 💬 **Discord**: Real-time discussions on C optimization, drone dynamics, and hardware choices → [Join here](https://discord.gg/bH34RuG2)
-- 🌐 **Antsand Platform**: [antsand.com](https://www.antsand.com)
